@@ -1074,9 +1074,9 @@ class CalendarComponent {
     datesRender(arg) {
         console.log('datesRender');
         this.ceCalendar.calendarOptions.events = [];
-        this.getCsv('../../../assets/csv/Fund-20220210.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].fund);
-        this.getCsv('../../../assets/csv/Holiday-20220127.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].holiday);
-        this.getCsv('../../../assets/csv/Invest-0128.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].invest);
+        this.getCsv('./assets/csv/Fund-20220210.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].fund);
+        this.getCsv('./assets/csv/Holiday-20220127.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].holiday);
+        this.getCsv('./assets/csv/Invest-0128.csv', _models_calendars_model__WEBPACK_IMPORTED_MODULE_0__["CalendarType"].invest);
     }
     /** 取得靜態資源 */
     getCsv(path, calendarType) {
