@@ -13,3 +13,22 @@ curl --location --request POST 'http://localhost:8087/pushservice/member/registe
     ]
 }
 '
+
+
+
+curl --location --request POST 'http://localhost:8087/pushservice/member/push
+' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "app_id": "whoAmI",
+    "app_secret": "zsdluiawelkr5weraq1",
+    "app": "test",
+    "title": "title1",
+    "message": "message1",
+    "schedule": "2022/09/09 13:34:57",
+    "broadcast": false,
+    "memberIdList": [
+        "member01"
+    ]
+}
+'
