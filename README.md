@@ -32,3 +32,5 @@ curl --location --request POST 'http://localhost:8087/pushservice/member/push
     ]
 }
 '
+
+curl --location --request GET 'http://localhost:7999/bp/retrieve/0/0000354006'
